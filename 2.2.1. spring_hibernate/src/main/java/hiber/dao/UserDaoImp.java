@@ -21,10 +21,10 @@ public class UserDaoImp implements UserDao {
       sessionFactory.getCurrentSession().save(user);
    }
 
-   @Override
+   /*@Override
    public void addCar(Car car) {
       sessionFactory.getCurrentSession().save(car);
-   }
+   }*/
 
    @Override
    @SuppressWarnings("unchecked")
